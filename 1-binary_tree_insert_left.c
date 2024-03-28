@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-/*
+/**
  *binary_tree_insert_left - function to ind=sert node in tree
  *@parent: pointer to the parent node
  *@value: value of data to he new node
