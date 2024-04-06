@@ -3,12 +3,13 @@
  * binary_tree_insert_right -function to insert right in binary tree
  * @parent: input pointer to the tree
  * @value: input value to add to tree
- * Return :pointer to current node
+ * Return:pointer to current node
  */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
-	
+
 	binary_tree_t *new_node;
+
 	if (parent == NULL)
 		return (NULL);
 
